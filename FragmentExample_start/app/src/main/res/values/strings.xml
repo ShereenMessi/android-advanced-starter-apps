@@ -26,8 +26,7 @@
     <string name="article2">At the same session, the Beatles played on “My Bonnie” (the first-ever single with Beatles playing), as the backing band for English singer Tony Sheridan, originally a member of the Jets. The popularity of this single in Liverpool brought the Beatles to the attention of Brian Epstein, who worked in the NEMS record store and tried to meet demand for the disc. John Lennon then sings a fine “Ain’t She Sweet” (his first-ever released vocal).</string>
 
     <!-- Text for the fragment. -->
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
+
     <string name="yes_message">ARTICLE: Like</string>
     <string name="no_message">ARTICLE: Thanks</string>
     <string name="question_article">LIKE THE ARTICLE?</string>
@@ -38,5 +37,7 @@
 
     <!-- Text for the exception message in FragmentCommunicate. -->
     <string name="exception_message">must implement OnFragmentInteractionListener</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 
 </resources>
