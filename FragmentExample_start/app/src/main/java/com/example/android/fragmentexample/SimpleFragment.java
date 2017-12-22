@@ -8,7 +8,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.RatingBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * Created by Shereen on 12/22/2017.
@@ -33,6 +35,13 @@ public class SimpleFragment extends Fragment {
                     fragmentHeader.setText(getString(R.string.yes_message));
                 else if (i == 1)
                     fragmentHeader.setText(getString(R.string.no_message));
+            }
+        });
+        RatingBar ratingBar = rootView.findViewById(R.id.rating_bar);
+        ratingBar.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
+            @Override
+            public void onRatingChanged(RatingBar ratingBar, float v, boolean b) {
+                Toast.makeText(getActivity(), "My Rating:" + v, Toast.LENGTH_LONG).show();
             }
         });
         return rootView;

@@ -39,5 +39,6 @@
     <string name="exception_message">must implement OnFragmentInteractionListener</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
+    <string name="like_the_song">LIKE THE SONG</string>
 
 </resources>
